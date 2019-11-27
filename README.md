@@ -4,4 +4,4 @@
 #### Run the app
 - `npm install`
 - `node index.js`
-- visit http://localhost:3000/
+- visit http://localhost:3000/callback
