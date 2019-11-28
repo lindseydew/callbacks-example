@@ -1,15 +1,6 @@
 
 var async = require('async');
 var pg = require('pg');
-var config = {
-   user: '',
-   database: 'mvc',
-   password: '',
-   host: 'localhost',
-   port: 5432,
-   max: 10, //can change if needed, number of clients in pool
-   idleTimeoutMillis: 30000,
-};
 
 const { Client } = require('pg')
 // pools will use environment variables
